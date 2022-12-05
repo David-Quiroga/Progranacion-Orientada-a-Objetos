@@ -32,6 +32,8 @@ class Persona2:
         return f"Hola mi nombre es  {self.nombre}. Mi edad es: {self.edad} y mi numero de cedula es: {self.cedula}"   
         
 p3 = Persona2 ("Alexande", 30, 1798796786)
+p3.nombre = "Pepe"
+p3.cedula = "17542424"
 
 print(p3)
 
