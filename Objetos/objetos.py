@@ -12,7 +12,7 @@ class persona:
         self.nombre = nombre
         self.edad = edad 
     def __str__(self):
-        return f"Su nombre es{self.nombre}. y edad es: {self.edad}." 
+        return f"Su nombre es {self.nombre}, y mi edad es {self.edad}." 
        
 p2 = persona("Diego", 29)
 
@@ -23,31 +23,30 @@ class Persona2:
     edad = int
     cedula = int
   
-def __init__(self,nombre,edad,cedula):
-    self.nombre = nombre
-    self.edad = edad
-    self.cedula = cedula
+    def __init__(self, nombre, edad, cedula):
+        self.nombre = nombre
+        self.edad = edad
+        self.cedula = cedula
     
-def miFuncion(self) :
-    print("Hola mi nimbre es " + self.nombre + "Con mi numero de cedula" +{self.cedula})   
+    def miFuncion(self):
+        return f"Hola mi nombre es + {self.nombre}. Mi edad es: {self.edad} y mi numero de cedula es: {self.cedula}"   
         
-p3 = Persona2 ("Alexande", 30, "1798796786")
-p3.miFuncion()
+p3 = Persona2 ("Alexande", 30, 1798796786)
 
-p3.nombre = "Carlos"
-p3.cedula = "23231231242"
+print(p3)
 
 class persona3:
     nombre = str
     edad = int
+    altura = int
     
-    def __init__(self,nombre,edad,estatura):
+    def __init__(self, nombre, edad, estatura):
         self.nombre = nombre
         self.edad = edad 
         self.estatura= estatura
     def __str__(self):
-        return f"Su nombre es{self.nombre}. y edad es: {self.edad} .y su estatura {self.estatura}"
+        return f"Su nombre es {self.nombre}. y edad es: {self.edad} .y su estatura {self.estatura}"
        
-p4 = persona3("Diego", 29,1,99)
+p4 = persona3 ("David", 21, 160)
 
 print(p4)
