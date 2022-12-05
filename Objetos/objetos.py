@@ -12,7 +12,7 @@ class persona:
         self.nombre = nombre
         self.edad = edad 
     def __str__(self):
-        return f"Su nombre es {self.nombre}, y mi edad es {self.edad}." 
+        return f"Su nombre es {self.nombre}, y su edad es {self.edad}." 
        
 p2 = persona("Diego", 29)
 
@@ -28,8 +28,8 @@ class Persona2:
         self.edad = edad
         self.cedula = cedula
     
-    def miFuncion(self):
-        return f"Hola mi nombre es + {self.nombre}. Mi edad es: {self.edad} y mi numero de cedula es: {self.cedula}"   
+    def __str__(self):
+        return f"Hola mi nombre es  {self.nombre}. Mi edad es: {self.edad} y mi numero de cedula es: {self.cedula}"   
         
 p3 = Persona2 ("Alexande", 30, 1798796786)
 
@@ -45,7 +45,7 @@ class persona3:
         self.edad = edad 
         self.estatura= estatura
     def __str__(self):
-        return f"Su nombre es {self.nombre}. y edad es: {self.edad} .y su estatura {self.estatura}"
+        return f"Su nombre es {self.nombre}. tu edad es: {self.edad} y su estatura {self.estatura}"
        
 p4 = persona3 ("David", 21, 160)
 

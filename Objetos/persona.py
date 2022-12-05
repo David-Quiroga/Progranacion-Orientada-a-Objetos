@@ -8,9 +8,9 @@ class persona:
         self.centroEstudio = centroEstudio
         
     def conversar (self,otra_persona):
-        return f'Hola {otra_persona.nombre}me llamo {self.nombre}, estudio {self.centroEstudio} '  
+        return f'Hola {otra_persona.nombre} me llamo {self.nombre}, y estudio en la  {self.centroEstudio} '  
     
-if __name__=="__main__" :
+if __name__== "__main__" :
     Persona1 = persona("Juan", 18, "espe")
     Persona2 = persona("Alison", 28, "uce") 
     
